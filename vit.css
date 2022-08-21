@@ -1,0 +1,99 @@
+/*---------------------
+----MODAL FOR IMAGES---
+---------------------*/
+
+.vit-modal {
+  display: none;
+}
+
+/* The Modal (background) */
+.vit-modal__backdrop {
+  position: fixed;
+  display: flex;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(51, 51, 51, 0.3);
+  padding: 0px 16px;
+  z-index: 99;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Modal Content */
+.vit-modal__content {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  height: auto;
+  width: auto;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+/* The Close Button */
+.vit-modal__btn-close {
+  color: #aaaaaa;
+  float: right;
+  line-height: 17px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.vit-modal__btn-close:hover,
+.vit-modal__btn-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Image */
+.vit-modal__image {
+  max-width: 100%;
+  width: 450px;
+  height: auto;
+}
+
+/*---------------------
+----WHATSAPP BUTTON----
+---------------------*/
+
+.vit-whatsapp-button {
+  display: none;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 100px;
+  left: 17px;
+  background-color: #25d366;
+  border-radius: 50px;
+  text-align: center;
+  z-index: 100;
+  box-shadow: rgb(0 0 0 / 8%) 0px 1px 8px 0px, rgb(0 0 0 / 3%) 0px 3px 4px 0px, rgb(0 0 0 / 6%) 0px 3px 3px 0px;
+}
+
+.vit-whatsapp-button__link {
+  color: #FFF;
+}
+
+.vit-whatsapp-button__icon {
+  margin-top: 5px;
+  font-size: 30px;
+  font-family: FontAwesome !important;
+}
+
+@media only screen and (min-width: 992px) {
+  .vit-whatsapp-button {
+    width: 50px;
+    height: 50px;
+    bottom: 67px;
+    left: 33px;
+  }
+
+  .vit-whatsapp-button__icon {
+    font-size: 39px;
+  }
+}
