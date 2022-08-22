@@ -118,3 +118,5 @@ vit.util = vitUtil;
 vit.modal = vitModal;
 vit.cookie = vitCookie;
 vit.whatsappButton = vitWhatsappButton;
+
+vit.util.appendStylesheetToHead('./vit.css');

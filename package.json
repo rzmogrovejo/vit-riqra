@@ -1,0 +1,28 @@
+{
+  "name": "vit-riqra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "util.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzmogrovejo/vit-riqra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rzmogrovejo/vit-riqra/issues"
+  },
+  "homepage": "https://github.com/rzmogrovejo/vit-riqra#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "laravel-mix": "^6.0.49"
+  }
+}
